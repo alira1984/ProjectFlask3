@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block body %}
+ <header class="container-sm " >
+    <div class="container-sm m-2" style="background-color: #D3D3D3;">
+
+        <section class="m-2">
+        <div class="form-control m-20" >
+            <img src="../static/image/email.png" alt="email" width="30px">
+            <h5>E-mail:</h5>
+            <p> anderliraa@gmail.com</p>
+            <hr>
+            <img src="../static/image/telefone.png" alt="telefone" width="30px">
+            <h5>Telefone:</h5>
+            <p> +55(12) 98808-4836</p>
+            <hr>
+            <img src="../static/image/Icon_curriculo.png" alt="curriculo" width="30px">  <!- Função baixar currículo ->
+            <button type="button" class="btn btn-warning"><a href="{{url_for('download_curriculo')}}">Baixar Currículo</a></button>
+        </div>
+        <div>
+
+        </div>         <!- Formulário de contato ->
+        </section>
+        <form method="POST" action="" class=" m-5">
+            {{ formcontato.csrf_token }}
+            <legend style="text-align: center;"> <strong>Envie sua mensagem</strong></legend>
+            <hr>
+            <fieldset>
+                <div class="form_group">
+                    {{ formcontato.nome.label(class="form-control-label") }}
+                    {{ formcontato.nome(class="form-control border-warning")}}
+                </div>
+
+                <div class="form_group">
+                    {{ formcontato.email.label(class="form-control-label") }}
+                    {{ formcontato.email(class="form-control border-warning") }}
+                </div>
+
+                <div class="form_group">
+                    {{ formcontato.assunto.label(class="form-control-label") }}
+                    {{ formcontato.assunto(class="form-control border-warning") }}
+                </div>
+
+                <div class="form_group">
+                    {{ formcontato.descricao.label(class="form-control-label") }}
+                    {{ formcontato.descricao(class="form-control border-warning") }}
+                </div>
+
+                <div class="form_group">
+                    {{ formcontato.lembrar_dados.label(class="form-check-label") }}
+                    {{ formcontato.lembrar_dados(class="form-check-input") }}
+                </div>
+            </fieldset>
+            {{ formcontato.botao_submit (class="btn btn-warning") }}
+
+        </form>
+
+
+
+    </div>
+ </header>
+<div>
+<footer class="footer">
+        <div class="footer-txt">
+            <h4>© Copyright Anderson Lira. All Rights Reserved</h4>
+            <h5>Desenvolvido por Anderson</h5>
+            <div>
+                <a href="https://www.linkedin.com/in/anderson-lira-ads/"><img src="../static/image/linkedin.png" alt="Linkedin"
+                        width="30px"></a>
+                <a href="https://github.com/alira1984"><img src="../static/image/github.png" alt="git" width="30px"></a>
+            </div>
+        </div>
+    </footer>
+</div>
+{% endblock %}
