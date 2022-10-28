@@ -5,7 +5,7 @@ from forms import FormContato
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:fatec@localhost/portifolio'   # Rota para criação do Banco de dados MySQL
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://b28552b2797bb3:c9b462f1@us-cdbr-east-06.cleardb.net/heroku_8d34e36aebad71e'   # Rota para criação do Banco de dados MySQL
 db = SQLAlchemy(app)
 
 app.config['SECRET_KEY'] = '6c07e1e4d0172b32dbc8216dbb032f96'   # Criação de chave de segurança para csrf token
