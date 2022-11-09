@@ -13,7 +13,7 @@ Este é meu site portfólio, desenvolvido com **Python**, **Flask**, **Mysql** e
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 * ### Banco de dados
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
-* ### Hospedagem
+* ### Hospedagem do Site
   <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
   
 ## 🚀Projeto rodando
