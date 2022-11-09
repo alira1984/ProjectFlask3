@@ -23,3 +23,7 @@ Este é meu site portfólio, desenvolvido com **Python**, **Flask**, **Mysql** e
  
   
 ### Acesse o site pelo link: <https://portfoliolira.herokuapp.com/>
+## 📲Contatos
+* E-mail: anderliraa@gmail.com
+
+
