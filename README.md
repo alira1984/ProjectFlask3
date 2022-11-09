@@ -17,6 +17,9 @@ Este é meu site portfólio, desenvolvido com **Python**, **Flask**, **Mysql** e
   <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
   
 ## 🚀Projeto rodando
+<p align="center">
+   <img width="500" height="380" src="static/image/Meu-Portifólio.gif" />
+</p>
  
   
 ### Acesse o site pelo link: <https://portfoliolira.herokuapp.com/>
